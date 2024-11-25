@@ -24,7 +24,7 @@ import math
 import imutils
 
 
-image=cv2.imread("C:\Users\pablo\OneDrive\Documentos\GitHub\Procesamiento_Multimedia\Coche6.png")
+image=cv2.imread(r"C:\Users\pablo\OneDrive\Documentos\GitHub\Procesamiento_Multimedia\Coche6.png")
 
 
 #we will resize and standardise our image to 500
