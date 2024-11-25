@@ -1,19 +1,18 @@
-!pip install opencv-python
-!pip install opencv_jupyter_ui
-!pip install -q ipycanvas==0.11
-from google.colab import output
-output.enable_custom_widget_manager()
-!pip install easyocr
-!pip install pytesseract
 
-!pip install imutils
+# !pip install opencv-python
+# !pip install opencv_jupyter_ui
+# !pip install -q ipycanvas==0.11
 
-!sudo apt install tesseract-ocr
-!pip install pytesseract
+# !pip install easyocr
+# !pip install pytesseract
+
+# !pip install imutils
+
+# !sudo apt install tesseract-ocr
+# !pip install pytesseract
 
 
 import cv2
-from google.colab.patches import cv2_imshow
 import opencv_jupyter_ui as jcv2
 
 import numpy as np
@@ -25,7 +24,7 @@ import math
 import imutils
 
 
-image=cv2.imread("coche.jpg")
+image=cv2.imread("C:\Users\pablo\OneDrive\Documentos\GitHub\Procesamiento_Multimedia\Coche6.png")
 
 
 #we will resize and standardise our image to 500
